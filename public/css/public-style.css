@@ -1,0 +1,786 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&display=swap");
+
+body {
+  background-color: #eaeaea;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #4f4f4f;
+}
+/* bootstrap style custom*/
+.rounded {
+  border-radius: 0.5rem !important;
+}
+.rounded-top {
+  border-top-left-radius: 0.5rem !important;
+  border-top-right-radius: 0.5rem !important;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #212121;
+  font-weight: 400;
+  font-size: 1.075rem;
+}
+.carousel-caption {
+  /*top: auto;*/
+  top: 55%;
+  left: 5%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+.carousel-caption h4 {
+  font-size: 1.3rem;
+}
+@media (min-width: 991px) {
+  .carousel-caption h1 {
+    font-size: 2rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-caption h1 {
+    font-size: 2.5rem !important;
+  }
+}
+.vertical-custom {
+  top: 50%;
+  left: 5%;
+  transform: translateY(-55%);
+  bottom: initial;
+}
+.item {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.section-head {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.title-head {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 108.19%;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+  color: #005f9c;
+}
+
+@media (max-width: 768px) {
+  .title-head {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .title-head {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 991px) {
+  .title-head {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .title-head {
+    font-size: 2rem;
+  }
+}
+.divider-head {
+  display: flex;
+  margin: 0 auto;
+}
+.hr-line {
+  width: 100%;
+  position: relative;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #828282;
+}
+.hr-icon {
+  position: relative;
+  top: 3px;
+  color: #828282;
+}
+
+.title-head-sm-left {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 108.19%;
+  text-align: left;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+  color: #005f9c;
+}
+.title-head-sm {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 108.19%;
+  text-align: center;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+  color: #005f9c;
+}
+
+.title-head-sm.line {
+  border-bottom: 1px solid #cfd8dc;
+}
+.description-head {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 25px;
+  color: #4f4f4f;
+}
+
+@media (max-width: 768px) {
+  .description-head {
+    font-size: 1rem;
+  }
+}
+.description-head-sm {
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #4f4f4f;
+}
+.custom-btn {
+  background: #3eaff8;
+  box-shadow: 5.11765px 6.82353px 6.82353px rgba(0, 0, 0, 0.37),
+    0px 0px 6.82353px #3eaff8;
+  border-radius: 30.7059px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 33px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 7px 20px;
+}
+.custom-btn:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+.block-discover img {
+  height: 100px;
+}
+.block-discover {
+  padding-top: 10%;
+  background-color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  height: 220px;
+  margin-bottom: 20px;
+}
+.block-discover span {
+  line-height: 20px;
+  text-align: center;
+  color: #4f4f4f;
+  display: block;
+}
+.section-show {
+  background-color: #ffffff;
+  padding: 25px 0px;
+  margin-top: 50px;
+}
+.custom-footer {
+  background-color: #ffffff;
+  padding: 25px 25px 40px 25px;
+}
+.custom-footer .item-list {
+  padding-bottom: 20px;
+}
+.custom-footer a {
+  color: #4f4f4f;
+}
+.caption-custom {
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10%;
+}
+.caption-custom h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 108.19%;
+  letter-spacing: 0.085em;
+  text-transform: uppercase;
+}
+.caption-images {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 5%;
+  color: #ffffff;
+}
+.caption-images h3 {
+  text-transform: uppercase;
+}
+.caption-images hr {
+  background-color: #ffffff;
+}
+.content-contact h4 {
+  text-transform: uppercase;
+  color: #4f4f4f;
+  font-weight: bold;
+  letter-spacing: 0.085em;
+}
+.custom-carousel {
+  min-height: 500px;
+}
+.card-pasos, .card-pasos table {
+  color: #27528f;
+}
+.card-pasos .number-circle {
+  border: 2px solid #27528f;
+  color: #27528f;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 100%;
+  padding: 0.7rem 1rem;
+}
+.card-pasos .custom-btn {
+  font-weight: normal;
+  font-size: 1rem;
+}
+.card-ventajas{
+  color:#27528F;
+}
+.card-ventajas img{
+  height: 50px;
+  width: 70px;
+}
+.bullet-list li{
+  list-style: disc;
+  color: #005F9C;
+}
+
+/*CAR ITEM STYLE*/
+.car-item {
+  font-weight: 300;
+  padding: 2px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border: 1px solid #eceff1;
+  border-radius: 3px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.car-item:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.car-item .name {
+  color: #37474f;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+  height: 50px;
+  margin-right: 3px;
+}
+.car-item .tipo {
+  display: block;
+  font-size: 17px;
+}
+.car-item .informacion {
+  height: 70px;
+}
+.car-item img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+.car-item img:hover {
+  filter: brightness(100%);
+}
+.car-item .aranceles {
+  width: 100%;
+  text-align: right;
+  font-size: 13px;
+}
+.car-item .aranceles .price {
+  font-size: 26px !important;
+  font-weight: 700;
+  text-align: left;
+  color: #212121;
+}
+.car-item .explorer {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.car-item .explorer button {
+  border: none;
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .car-item .name {
+    font-size: 18px;
+  }
+  .car-item .aranceles .price {
+    font-size: 17px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .car-item .name {
+    font-size: 15px;
+  }
+  .car-item .aranceles .price {
+    font-size: 18px;
+  }
+}
+/* filters marca*/
+.filtro-marcas img {
+  max-height: 50px;
+  max-width: 100px;
+  margin-left: 10px;
+}
+.btn-group {
+  margin-top: -20px;
+  float: right;
+}
+.btn-group button {
+  font-size: 10px;
+  padding: -10px;
+  width: 70px;
+  display: inline-block;
+  cursor: pointer;
+}
+.lista-categorias li {
+  text-align: left;
+  margin-left: -8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.lista-categorias {
+  margin-top: -10px;
+  margin-bottom: -20px;
+  list-style: none;
+  text-decoration: none;
+  color: #455a64;
+  border-radius: 5px;
+  padding: 10px;
+}
+.lista-categorias a:hover {
+  background-color: #1565c0;
+  color: white;
+}
+.filtro.categorias .brand {
+  width: 20px;
+  height: 20px;
+}
+.filtro-marcas img {
+  vertical-align: middle;
+  margin-left: -10px;
+}
+/* ACCORDION STYLE */
+.accordion {
+  font-weight: 400;
+  font-size: 18px !important;
+  background-color: #cfd8dc;
+  color: #444;
+  cursor: pointer;
+  padding: 3px 10px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.3rem;
+  transition: 0.4s;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+.open-accordion,
+.accordion:hover {
+  background-color: #1565c0;
+  color: #fafafa;
+}
+
+.accordion:after {
+  content: "\002B";
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.open-accordion:after {
+  content: "\2212";
+  color: #fff;
+}
+
+.panel-accordion {
+  padding: 5px 0px;
+  background-color: white;
+  overflow: hidden;
+  border: 1px solid #eceff1;
+}
+
+@media only screen and (max-width: 992px) {
+  .panel-accordion {
+    display: none;
+  }
+  #myMarcas {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .accordion-movil {
+    display: none;
+  }
+}
+.marca-img {
+  max-width: 100%;
+  width: 60px;
+  padding-top: 20px;
+}
+.container-marca {
+  width: 100%;
+  height: 75px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container-marca span {
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: transparent; /*para activar borde activo- desactivado con transparent*/
+  bottom: 0;
+  left: 0;
+}
+.container-marca input[type="radio"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.row-marca {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.container-marca input[type="radio"]:checked + span {
+  background: transparent; /*para activar borde activo- desactivado con transparent*/
+}
+.container-marca.mobile input[type="radio"]:checked + span {
+  background: #b0bec5; /*para activar borde activo- desactivado con transparent*/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .car-item .name {
+    font-size: 18px;
+  }
+  .car-item .aranceles .price {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1096px) {
+  .car-item .name {
+    font-size: 20px;
+  }
+  .car-item .aranceles .price {
+    font-size: 19px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .car-item .name {
+    font-size: 22px;
+  }
+  .car-item .aranceles .price {
+    font-size: 24px;
+  }
+}
+
+.car-item button {
+  transition: background 0.3s ease 0s;
+  text-align: left;
+  width: 80%;
+  background-color: #fff;
+  color: #37474f;
+  cursor: pointer;
+}
+.car-item button i {
+  margin-left: 10px;
+  font-weight: bold;
+}
+/* END CAR ITEM STYLE*/
+
+.radio-group input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+
+.radio-group label {
+  color: #607d8b;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 300;
+  padding: 5px 5px;
+}
+
+.radio-group input[type="radio"]:checked + label {
+  color: #fafafa;
+  background: #607d8b;
+}
+
+.radio-group {
+  border: solid 2px #607d8b;
+  display: inline-block;
+  margin: 0px -10px 10px -10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+/* MENU MOBILE*/
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 95, 156, 1); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 15%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+}
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 24px;
+  color: #ffffff;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 24px;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgba(0, 84, 138, 1);
+}
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/* END MENU*/
+
+/*Loader*/
+
+/* Absolute Center Spinner */
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+/* Absolute Center Spinner */
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: visible;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+  /* hide "loading..." text */
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.loading:not(:required):after {
+  content: "";
+  display: block;
+  font-size: 10px;
+  width: 4rem;
+  height: 4rem;
+  -webkit-animation: spinner 1500ms infinite linear;
+  -moz-animation: spinner 1500ms infinite linear;
+  -ms-animation: spinner 1500ms infinite linear;
+  -o-animation: spinner 1500ms infinite linear;
+  animation: spinner 1500ms infinite linear;
+  border: 10px solid #d32f2f;
+  border-top-color: transparent;
+  border-radius: 50%;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*Custom style Owl Carousel */
+.owl-carousel .nav-btn {
+  height: 30px;
+  position: absolute;
+  width: 30px;
+  cursor: pointer;
+  top: 41% !important;
+  color: #fff;
+  border-radius: 100%;
+  line-height: 30px;
+}
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
+.owl-carousel .prev-slide {
+  background: rgba(255, 255, 255, 0.2);
+  left: 10px;
+}
+.owl-carousel .next-slide {
+  background: rgba(255, 255, 255, 0.2);
+  right: 10px;
+}

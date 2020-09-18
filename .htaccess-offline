@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} !^/welcome\.html$
+RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif) [NC]
+RewriteRule ^(.*)$ http://rentingcrediq.com/welcome.html [R=307,L]
